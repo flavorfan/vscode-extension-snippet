@@ -1,0 +1,21 @@
+{
+  "name": "flavor-s-snippets",
+  "displayName": "Flavor's Snippets",
+  "description": "Snippets",
+  "version": "0.0.1",
+  "publisher": "flavor",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
